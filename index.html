@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Shah Watches Pakistan | Premium Watches for Men & Women</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="loader-ring"></div>
+      <div class="loader-logo">SHAH WATCHES</div>
+      <div class="loader-tagline">Premium Timepieces</div>
+      <div class="loader-dots">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <div class="announcement-slider" id="announcementSlider">
+      <p><i class="fas fa-rotate-left"></i> 30 Days Hassle-free returns — Easy Refund & Exchange</p>
+      <p><i class="fas fa-star"></i> ★★★★★ 18 Million+ Satisfied Customers</p>
+      <p><i class="fas fa-shield-halved"></i> 1 YEAR INTERNATIONAL WARRANTY</p>
+    </div>
+  </div>
+
+  <!-- HEADER — CENTERED 3D LOGO -->
+  <header class="header" id="header">
+    <div class="header-top">
+      <div class="header-side left">
+        <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+        <a href="#" class="icon-link hide-sm"><i class="fas fa-magnifying-glass"></i></a>
+      </div>
+      <a href="index.html" class="logo3d" aria-label="Shah Watches - Home">
+        <svg class="logo-badge" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="lgGold" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f9e9a0"/>
+              <stop offset=".45" stop-color="#d4a853"/>
+              <stop offset="1" stop-color="#8a6420"/>
+            </linearGradient>
+            <linearGradient id="lgMetal" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ffffff"/>
+              <stop offset=".5" stop-color="#c8ced8"/>
+              <stop offset="1" stop-color="#7c8694"/>
+            </linearGradient>
+            <radialGradient id="lgFace" cx=".5" cy=".38" r=".75">
+              <stop offset="0" stop-color="#26262e"/>
+              <stop offset="1" stop-color="#0b0b0e"/>
+            </radialGradient>
+            <path id="arcTop" d="M 50 50 m -35 0 a 35 35 0 1 1 70 0" fill="none"/>
+            <path id="arcBottom" d="M 50 50 m -32 0 a 32 32 0 1 0 64 0" fill="none"/>
+          </defs>
+          <circle cx="50" cy="50" r="49" fill="url(#lgGold)"/>
+          <circle class="logo-dash" cx="50" cy="50" r="44.5" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="1" stroke-dasharray="3 5"/>
+          <circle cx="50" cy="50" r="39" fill="url(#lgFace)" stroke="#8a6420" stroke-width="1"/>
+          <text font-size="8.2" font-weight="700" letter-spacing="1.5" fill="#e9c876">
+            <textPath href="#arcTop" startOffset="50%" text-anchor="middle">SHAH WATCHES</textPath>
+          </text>
+          <text font-size="6.4" font-weight="600" letter-spacing="1.6" fill="#9aa3ad">
+            <textPath href="#arcBottom" startOffset="50%" text-anchor="middle">PREMIUM TIMEPIECES</textPath>
+          </text>
+          <text x="50" y="70" text-anchor="middle" font-size="42" font-weight="900" fill="#3a2c08" opacity=".85">S</text>
+          <text x="50" y="68" text-anchor="middle" font-size="42" font-weight="900" fill="#54400e">S</text>
+          <text x="50" y="66" text-anchor="middle" font-size="42" font-weight="900" fill="url(#lgMetal)" stroke="#2a2416" stroke-width=".6">S</text>
+          <text x="17" y="54" font-size="7" fill="#e9c876">&#9733;</text>
+          <text x="77" y="54" font-size="7" fill="#e9c876">&#9733;</text>
+        </svg>
+      </a>
+      <div class="header-side right">
+        <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+        <a href="#" class="icon-link cart-link">
+          <i class="fas fa-bag-shopping"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+      </div>
+    </div>
+    <nav class="nav-row">
+      <ul>
+        <li><a href="collection.html?cat=sale" class="sale-link">Azadi Sale</a></li>
+        <li><a href="collection.html?cat=bestseller">Best Sellers</a></li>
+        <li><a href="collection.html?cat=new">New Arrival</a></li>
+        <li><a href="collection.html?cat=men">Men</a></li>
+        <li><a href="collection.html?cat=women">Women</a></li>
+        <li><a href="collection.html?cat=smart">Smart Watches</a></li>
+        <li><a href="collection.html?cat=couple">For Couples</a></li>
+        <li><a href="track-order.html">Track Order</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MOBILE NAV OVERLAY -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-header">
+      <span class="logo-text">SHAH WATCHES</span>
+      <button class="mobile-nav-close" id="mobileNavClose"><i class="fas fa-xmark"></i></button>
+    </div>
+    <ul>
+      <li><a href="collection.html?cat=sale">Azadi Sale</a></li>
+      <li><a href="collection.html?cat=bestseller">Best Sellers</a></li>
+      <li><a href="collection.html?cat=new">New Arrival</a></li>
+      <li><a href="collection.html?cat=men">Men</a></li>
+      <li><a href="collection.html?cat=women">Women</a></li>
+      <li><a href="collection.html?cat=smart">Smart Watches</a></li>
+      <li><a href="collection.html?cat=couple">For Couples</a></li>
+      <li><a href="track-order.html">Track Order</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO SLIDER — AMBIENT EFFECT -->
+  <section class="hero-slider" id="heroSlider">
+    <div class="slider-ambient" id="sliderAmbient">
+      <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1200&h=600&fit=crop" alt="" id="ambientImg">
+    </div>
+    <div class="slides">
+      <div class="slide active" data-ambient="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1200&h=600&fit=crop">
+        <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1600&h=600&fit=crop" alt="Azadi Sale Banner" class="slide-bg">
+        <div class="slide-overlay"></div>
+        <div class="brand-3d" aria-hidden="true">
+          <span class="b3d-top" data-text="SHAH">SHAH</span>
+          <span class="b3d-bottom" data-text="WATCHES">WATCHES</span>
+        </div>
+        <div class="slide-content">
+          <span class="slide-badge">AZADI SALE</span>
+          <h1>Up to <span class="highlight">60% OFF</span></h1>
+          <p>Premium Watches at Unbeatable Prices</p>
+          <a href="collection.html?cat=sale" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="slide" data-ambient="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=1200&h=600&fit=crop">
+        <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=1600&h=600&fit=crop" alt="Women Collection Banner" class="slide-bg">
+        <div class="slide-overlay"></div>
+        <div class="brand-3d" aria-hidden="true">
+          <span class="b3d-top" data-text="SHAH">SHAH</span>
+          <span class="b3d-bottom" data-text="WATCHES">WATCHES</span>
+        </div>
+        <div class="slide-content">
+          <span class="slide-badge">NEW ARRIVAL</span>
+          <h1>Women's <span class="highlight">Collection</span></h1>
+          <p>Elegant Timepieces for Her</p>
+          <a href="collection.html?cat=women" class="btn btn-primary">Explore</a>
+        </div>
+      </div>
+      <div class="slide" data-ambient="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=1200&h=600&fit=crop">
+        <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=1600&h=600&fit=crop" alt="Couple Watches Banner" class="slide-bg">
+        <div class="slide-overlay"></div>
+        <div class="brand-3d" aria-hidden="true">
+          <span class="b3d-top" data-text="SHAH">SHAH</span>
+          <span class="b3d-bottom" data-text="WATCHES">WATCHES</span>
+        </div>
+        <div class="slide-content">
+          <span class="slide-badge">COUPLE SPECIAL</span>
+          <h1>Matching <span class="highlight">Watches</span></h1>
+          <p>His & Hers Perfect Pairs</p>
+          <a href="collection.html?cat=couple" class="btn btn-primary">View Collection</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider-dots" id="sliderDots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <!-- CATEGORY CIRCLES — 3D POP EFFECT -->
+  <section class="category-icons">
+    <div class="container">
+      <div class="category-grid">
+        <a href="collection.html?cat=sale" class="category-item">
+          <div class="category-circle pop">
+            <img src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=300&h=300&fit=crop&crop=entropy" alt="Sale" class="pop-img">
+            <span class="pop-badge"><i class="fas fa-percent"></i> 60% OFF</span>
+          </div>
+          <span class="category-label">Upto 60% OFF</span>
+        </a>
+        <a href="collection.html?cat=men" class="category-item">
+          <div class="category-circle pop">
+            <img src="https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?w=300&h=300&fit=crop" alt="Men Formal" class="pop-img">
+          </div>
+          <span class="category-label">Men Formal</span>
+        </a>
+        <a href="collection.html?cat=men&sub=sports" class="category-item">
+          <div class="category-circle pop">
+            <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=300&h=300&fit=crop" alt="Men Sports" class="pop-img">
+          </div>
+          <span class="category-label">Men Sports</span>
+        </a>
+        <a href="collection.html?cat=women" class="category-item">
+          <div class="category-circle pop female">
+            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=300&h=300&fit=crop" alt="Female Fancy" class="pop-img">
+          </div>
+          <span class="category-label">Female Fancy</span>
+        </a>
+        <a href="collection.html?cat=women&sub=bracelet" class="category-item">
+          <div class="category-circle pop female">
+            <img src="https://images.unsplash.com/photo-1526045431048-f857369baa09?w=300&h=300&fit=crop" alt="Female Bracelets" class="pop-img">
+          </div>
+          <span class="category-label">Female Bracelets</span>
+        </a>
+        <a href="collection.html?cat=smart" class="category-item">
+          <div class="category-circle pop smart">
+            <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=300&h=300&fit=crop" alt="Smart Watches" class="pop-img">
+          </div>
+          <span class="category-label">Smart Watches</span>
+        </a>
+        <a href="collection.html?cat=couple" class="category-item">
+          <div class="category-circle pop couple">
+            <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=300&h=300&fit=crop" alt="Couple Watches" class="pop-img">
+          </div>
+          <span class="category-label">Couple Watches</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="featured-products" id="featuredProducts">
+    <div class="container">
+      <h2 class="section-title">FEATURED PRODUCTS</h2>
+      <div class="product-tabs">
+        <button class="tab-btn active" data-tab="men">MEN</button>
+        <button class="tab-btn" data-tab="women">WOMEN</button>
+        <button class="tab-btn" data-tab="smart">SMART WATCHES</button>
+        <button class="tab-btn" data-tab="bestseller">BEST SELLER</button>
+        <button class="tab-btn" data-tab="couple">COUPLE</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+        <!-- Products will be loaded by JS -->
+      </div>
+
+      <div class="view-all">
+        <a href="collection.html?cat=men" class="btn btn-outline">View All →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO SHOWCASE — 9:16 LOOPING -->
+  <section class="video-showcase">
+    <div class="container">
+      <h2 class="section-title">Shop By Category</h2>
+      <div class="video-grid">
+        <a href="collection.html?cat=men" class="video-box" data-category="men">
+          <video autoplay muted loop playsinline disablepictureinpicture preload="metadata"
+            poster="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=540&h=960&fit=crop">
+            <source src="https://assets.mixkit.co/videos/28888/28888-720.mp4" type="video/mp4">
+          </video>
+          <div class="video-scrim"></div>
+          <div class="video-overlay">
+            <span class="video-label">MEN</span>
+            <span class="video-cta">Shop Now <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+        <a href="collection.html?cat=women" class="video-box" data-category="women">
+          <video autoplay muted loop playsinline disablepictureinpicture preload="metadata"
+            poster="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=540&h=960&fit=crop">
+            <source src="https://assets.mixkit.co/videos/44070/44070-720.mp4" type="video/mp4">
+          </video>
+          <div class="video-scrim"></div>
+          <div class="video-overlay">
+            <span class="video-label">WOMEN</span>
+            <span class="video-cta">Shop Now <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+        <a href="collection.html?cat=bestseller" class="video-box" data-category="unisex">
+          <video autoplay muted loop playsinline disablepictureinpicture preload="metadata"
+            poster="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=540&h=960&fit=crop">
+            <source src="https://assets.mixkit.co/videos/3672/3672-720.mp4" type="video/mp4">
+          </video>
+          <div class="video-scrim"></div>
+          <div class="video-overlay">
+            <span class="video-label">UNISEX</span>
+            <span class="video-cta">Shop Now <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE COLLECTION SHOWCASE -->
+  <section class="signature" id="signature">
+    <div class="signature-bg-text">SHAH</div>
+    <div class="container">
+      <div class="signature-grid">
+        <div class="signature-visual">
+          <div class="signature-glow"></div>
+          <img src="https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?w=700&h=700&fit=crop" alt="Signature Watch" class="signature-watch">
+          <span class="orbit orbit-1"></span>
+          <span class="orbit orbit-2"></span>
+          <div class="spec-chip chip-tl"><i class="fas fa-gem"></i> Sapphire Glass</div>
+          <div class="spec-chip chip-tr"><i class="fas fa-water"></i> 5 ATM Water Resistant</div>
+          <div class="spec-chip chip-bl"><i class="fas fa-gears"></i> Japanese Movement</div>
+          <div class="spec-chip chip-br"><i class="fas fa-feather"></i> Genuine Leather</div>
+        </div>
+        <div class="signature-content">
+          <span class="eyebrow">THE SIGNATURE COLLECTION</span>
+          <h2>Crafted Beyond<br><em>Time Itself</em></h2>
+          <p>Every Shah Watches timepiece is assembled with obsession — from the first sketch to the final polish. Precision Japanese movement, sapphire-coated glass and materials built to outlive trends.</p>
+          <ul class="signature-points">
+            <li><i class="fas fa-circle-check"></i> Hand-finished stainless steel cases</li>
+            <li><i class="fas fa-circle-check"></i> Scratch-resistant crystal display</li>
+            <li><i class="fas fa-circle-check"></i> Tested across 100+ quality checkpoints</li>
+          </ul>
+          <a href="#featuredProducts" class="btn btn-primary signature-btn">Explore The Collection <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat">
+          <span class="stat-num" data-count="46">0</span>
+          <span class="stat-plus">+</span>
+          <span class="stat-label">Years of Craftsmanship</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="18">0</span>
+          <span class="stat-plus">M+</span>
+          <span class="stat-label">Happy Customers</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="120">0</span>
+          <span class="stat-plus">+</span>
+          <span class="stat-label">Cities Delivered</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="500">0</span>
+          <span class="stat-plus">+</span>
+          <span class="stat-label">Watch Designs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES BAR -->
+  <section class="features-bar">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-award"></i></div>
+          <h4>46 Years of Excellence</h4>
+          <p>In Watchmaking</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
+          <h4>1 Year Warranty</h4>
+          <p>International</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-truck-fast"></i></div>
+          <h4>Free Delivery</h4>
+          <p>Across Pakistan</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fas fa-rotate-left"></i></div>
+          <h4>Easy Returns</h4>
+          <p>30-Day Policy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Shop SHAH WATCHES</h4>
+          <ul>
+            <li><a href="collection.html?cat=sale">Azadi Sale</a></li>
+            <li><a href="collection.html?cat=smart">Smartwatches</a></li>
+            <li><a href="collection.html?cat=new">New Arrival</a></li>
+            <li><a href="collection.html?cat=men">Men Watches</a></li>
+            <li><a href="collection.html?cat=women">Ladies Watches</a></li>
+            <li><a href="collection.html?cat=couple">Couple Watches</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Customer Care</h4>
+          <ul>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="policy.html?page=returns">Returns & Exchange</a></li>
+            <li><a href="policy.html?page=warranty">Warranty Information</a></li>
+            <li><a href="policy.html?page=shipping">Shipping Policy</a></li>
+            <li><a href="policy.html?page=privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="stores.html">Our Stores</a></li>
+            <li><a href="policy.html?page=terms">Terms of Service</a></li>
+            <li><a href="policy.html?page=refund">Refund Policy</a></li>
+            <li><a href="policy.html?page=retail">Retail Policy</a></li>
+            <li><a href="policy.html?page=payment">Modes of Payment</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Subscribe</h4>
+          <p class="subscribe-text">Get special offers and deals</p>
+          <form class="subscribe-form" id="subscribeForm">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Shah Watches PK. All rights reserved.</p>
+        <div class="payment-icons">
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-paypal"></i>
+          <i class="fas fa-money-bill-wave"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
